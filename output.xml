@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221002 18:08:19.252" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="C:\Users\NaJamm\Desktop\demo-appium-robot\testcase\login.robot">
+<test id="s1-t1" name="Case01" line="8">
+<kw name="เปิด app ใหม่" library="key_login">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>app=${appium:app}</arg>
+<arg>deviceName=${appium:deviceName}</arg>
+<arg>automationName=${appium:automationName}</arg>
+<arg>appPackage=com.neversitup.piggipogo</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20221002 18:08:19.395" endtime="20221002 18:08:28.920"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/signInButton</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:28.920" endtime="20221002 18:08:31.304"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/signInButton</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:31.304" endtime="20221002 18:08:31.323"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/signInButton</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:31.324" level="INFO">Clicking element 'id=com.neversitup.piggipogo:id/signInButton'.</msg>
+<status status="PASS" starttime="20221002 18:08:31.323" endtime="20221002 18:08:31.391"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>xpath=//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:31.392" endtime="20221002 18:08:33.059"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>xpath=//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:33.060" level="INFO">Clicking element 'xpath=//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]'.</msg>
+<status status="PASS" starttime="20221002 18:08:33.059" endtime="20221002 18:08:33.152"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/btnTermAccept</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:33.152" endtime="20221002 18:08:38.341"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/btnTermAccept</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:38.343" level="INFO">Clicking element 'id=com.neversitup.piggipogo:id/btnTermAccept'.</msg>
+<status status="PASS" starttime="20221002 18:08:38.341" endtime="20221002 18:08:38.427"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/cb</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:38.427" endtime="20221002 18:08:39.194"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/cb</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:39.195" level="INFO">Clicking element 'id=com.neversitup.piggipogo:id/cb'.</msg>
+<status status="PASS" starttime="20221002 18:08:39.194" endtime="20221002 18:08:40.872"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/btnPolicyAccept</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:40.873" endtime="20221002 18:08:41.962"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/btnPolicyAccept</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:41.964" level="INFO">Clicking element 'id=com.neversitup.piggipogo:id/btnPolicyAccept'.</msg>
+<status status="PASS" starttime="20221002 18:08:41.962" endtime="20221002 18:08:42.514"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.android.permissioncontroller:id/permission_allow_button</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:42.514" endtime="20221002 18:08:43.454"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.android.permissioncontroller:id/permission_allow_button</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:43.456" level="INFO">Clicking element 'id=com.android.permissioncontroller:id/permission_allow_button'.</msg>
+<status status="PASS" starttime="20221002 18:08:43.454" endtime="20221002 18:08:43.573"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/imvAds</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20221002 18:08:43.573" endtime="20221002 18:08:44.724"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.neversitup.piggipogo:id/imvAds</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20221002 18:08:44.725" level="INFO">Clicking element 'id=com.neversitup.piggipogo:id/imvAds'.</msg>
+<status status="PASS" starttime="20221002 18:08:44.724" endtime="20221002 18:08:44.864"/>
+</kw>
+<status status="PASS" starttime="20221002 18:08:19.395" endtime="20221002 18:08:44.864"/>
+</kw>
+<timeout value="1 minute"/>
+<status status="PASS" starttime="20221002 18:08:19.395" endtime="20221002 18:08:44.865"/>
+</test>
+<status status="PASS" starttime="20221002 18:08:19.254" endtime="20221002 18:08:44.866"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
