@@ -19,7 +19,7 @@ Open app with gmail
     Click Element    xpath=//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]
 
 # Allow permission
-    Wait Until Page Contains Element    id=com.neversitup.piggipogo:id/btnTermAccept
+    Wait Until Page Contains Element    id=com.neversitup.piggipogo:id/btnTermAccept    10
     Click Element    id=com.neversitup.piggipogo:id/btnTermAccept
     
     Wait Until Page Contains Element    id=com.neversitup.piggipogo:id/cb
