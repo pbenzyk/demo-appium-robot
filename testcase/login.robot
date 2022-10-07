@@ -10,3 +10,7 @@ Case01
     # สมัครด้วย gamil
     # Allow permission
     # ผู้ใช้งานจะเข้าหน้าหลักได้
+
+*** Keywords ***
+add wallet
+    Wait Until Page Contains Element    id=com.neversitup.piggipogo:id/layoutWalletIndicator
